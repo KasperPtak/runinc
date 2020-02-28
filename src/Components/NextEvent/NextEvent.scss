@@ -1,0 +1,28 @@
+@import '../../Global/Styles/Variables.scss';
+
+.EventTekst {
+    position: absolute;
+    top: 26%;
+    left: 0;
+    background-color: $SecondaryColor;
+    color: $White;
+    padding: .7rem .7rem .7rem 30% ;
+    
+    text-transform: uppercase;
+    font-family: $Font;
+}
+
+.EventContent {
+    background-color: $PrimaryColor;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .EventTekst {
+        top: 46%;
+        padding: .5rem .5em .5rem 20%;
+        font-size: 19px;
+        text-align: right;
+    }
+
+}

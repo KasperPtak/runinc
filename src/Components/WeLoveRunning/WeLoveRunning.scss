@@ -1,0 +1,39 @@
+@import '../../Global/Styles/Variables.scss';
+
+div {
+    position: relative;
+}
+
+div img {
+    
+    object-fit: cover;
+    max-height: 860px;
+}
+
+.HeroText {
+    position: absolute;
+    top: 56%;
+    right: 0;
+    background-color: $SecondaryColor;
+    color: $White;
+    padding: 1rem 30% 1rem 1rem;;
+    
+    text-transform: uppercase;
+    font-family: $Font;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .HeroText {
+        top: 46%;
+        padding: .5rem 10% .5rem .5rem;
+        font-size: 19px;
+    }
+
+}
+
+span {
+    color: $PrimaryColor;
+}

@@ -1,0 +1,28 @@
+@import '../../../../Global/Styles/Variables.scss';
+
+* {
+   
+    box-sizing: border-box;
+}
+
+input {
+    border: solid 2px $SecondaryColor;
+}
+
+input:nth-child(1){
+    background-color: $PrimaryColor ;
+
+}
+    
+input:nth-child(2) {
+    background-color: $SecondaryColor;
+    color: $White;
+    
+    text-transform: uppercase;
+
+    &:hover {
+        opacity: .7;
+        font-size: 15.8px;
+    }
+}
+    

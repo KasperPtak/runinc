@@ -1,0 +1,33 @@
+@import '../../../Global/Styles/Variables.scss';
+
+.EventHeader {
+    font-family: $Font;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 20%;
+}
+
+
+
+.MiniHeader {
+    font-family: $Font;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .EventHeader {
+        
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .BorderBottom {
+        padding-bottom: 2rem;
+        border-bottom: 2px solid $SecondaryColor;
+    }
+
+}

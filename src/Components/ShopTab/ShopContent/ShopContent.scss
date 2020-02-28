@@ -1,0 +1,52 @@
+@import '../../../Global/Styles/Variables.scss';
+
+#ShopContent {
+    margin-top: 18%;
+    padding-bottom: 15px;
+}
+
+.ShopContentHeader {
+    background-color: $SecondaryColor;
+    color: $White;
+    width: 25%;
+    padding: .5rem 15rem .5rem 1rem;
+    text-transform: uppercase;
+    float: right;
+    margin: -7% 0 0 0;
+}
+
+.ShoeBorder {
+border: 2px solid black;
+
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    #ShopContent {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ShopContentHeader {
+        background-color: $SecondaryColor;
+        color: $White;
+        width: 100%;
+        padding: .5rem 1rem .5rem 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+    }
+
+    .ShopContent {
+
+        section {
+            padding: 4px !important;
+        }
+    }
+
+}

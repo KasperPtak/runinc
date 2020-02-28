@@ -1,0 +1,14 @@
+@import '../../../Global/Styles/Variables.scss';
+
+
+.ContactHeader {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: $PrimaryColor;
+    color: $SecondaryColor;
+    padding: .7rem .7rem .7rem 50% ;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $Font;
+}
